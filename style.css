@@ -9,9 +9,11 @@
 }
 
 .nav-link {
-    font-weight: 500;
+    font-weight:bolder;
     position: relative;
     color: white;
+        font-family: "Inter", serif;
+
     font-size: 25px;
     /* background-color: #fff; */
 }
@@ -52,10 +54,18 @@
     transform: translateX(-50%);
     width: 0%;
     height: 1.5px;
-    background-color: #f02020;
+    background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     ;
     visibility: hidden;
     transition: 0.4s ease-in-out;
+}
+.like a{
+      font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(149deg, #161d16 7%, #ff0832 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover::before {
@@ -64,36 +74,28 @@
 }
 
 .nav-item .nav-link:hover {
-    /* font-size: 1.2rem; */
-        color: black;
-    font-weight: bold;
- /* font-size: 26px; */
-    color: #333;
-    line-height: 30px;
-    /* font-weight: 400; */
-    text-align: center;
-    background: linear-gradient(to right, #077cb3 35%, #000 20%, #e70a4c);
+ 
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
 }
+
 .nav-item{
     font-size: 1.4rem;
 }
 .kite{
-    font-size: 1.2rem;
-        color: black;
-    font-weight: bolder;
- font-size: 26px;
-    color: #333;
-    line-height: 30px;
-    /* font-weight: 400; */
-    text-align: center;
-    background: linear-gradient(to right, #e40c0c 35%, #000 20%, #0a9d16);
+   font-family: "Inter", serif;
+    font-size: xx-large;
+    font-weight: bold;
+    background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
+    /* text-transform: uppercase; */
 }
+
 
 .sh-title h2{
     font-size: 26px;
@@ -101,7 +103,7 @@
     line-height: 30px;
     font-weight: 400;
     text-align: center;
-    background: linear-gradient(to right, #bf1112 35%, #000);
+    background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -148,11 +150,14 @@
 
 .button a {
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 17px;
-    color: black;
-    border: 1px solid #fff;
-    background: transparent;
-    font-weight: bolder;
-    font-size: 1.2rem;
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid #0e0a0a;
+  
+       font-family: "Inter", serif;
+    font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
