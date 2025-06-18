@@ -1,0 +1,158 @@
+
+
+/* navbar css start  */
+/* hover effect */
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    /* background-color: #fff; */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: green;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.4s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link::before {
+
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 1.5px;
+    background-color: #f02020;
+    ;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.nav-item .nav-link:hover {
+    /* font-size: 1.2rem; */
+        color: black;
+    font-weight: bold;
+ /* font-size: 26px; */
+    color: #333;
+    line-height: 30px;
+    /* font-weight: 400; */
+    text-align: center;
+    background: linear-gradient(to right, #077cb3 35%, #000 20%, #e70a4c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.nav-item{
+    font-size: 1.4rem;
+}
+.kite{
+    font-size: 1.2rem;
+        color: black;
+    font-weight: bolder;
+ font-size: 26px;
+    color: #333;
+    line-height: 30px;
+    /* font-weight: 400; */
+    text-align: center;
+    background: linear-gradient(to right, #e40c0c 35%, #000 20%, #0a9d16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.sh-title h2{
+    font-size: 26px;
+    color: #333;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(to right, #bf1112 35%, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+
+
+
+
+.Aman {
+    /* background-image: var(--gradient); */
+    /* background-color: #083d3d; */
+    box-shadow: var(--shadow-4);
+    background-color: #fff;
+    color: black;
+
+}
+
+.nav-item .nav-link {
+    color: #020202;
+    font-size: 17px;
+}
+
+.Aman {
+    /* background-color: rgba(86, 82, 82, 0.881); */
+    /* padding: 8px; */
+    /* border-radius: 40px; */
+    /* background: transparent; */
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar {
+    /* margin: 20px; */
+}
+
+.nav-link {
+    font-size: small;
+}
+
+
+.button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: black;
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
