@@ -148,16 +148,20 @@
 }
 
 
-.button a {
+.button a{
     text-decoration: none;
-    padding: 1px 5px;
+    padding: 6px 12px;
     border-radius: 3px;
-    border: 1px solid #0e0a0a;
-  
-       font-family: "Inter", serif;
-    font-size: x-large;
+    /* border: 1px solid #0e0a0a; */
+      background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
+color: #fff;
+        font-family: "Inter", serif;
+    /* font-size: x-large;
     font-weight: bold;
     background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+}
+.kite{
+    
 }
