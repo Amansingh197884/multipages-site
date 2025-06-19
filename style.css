@@ -497,3 +497,34 @@ z-index: 1 !important;
     right: -400px !important;
     left: unset !important; 
 }
+.process-wrapper{
+    background-color: #000;
+}
+.process-wrapper h1{
+    color: #fff !important;
+}
+.process-content{
+    padding: 4rem 6rem;
+    position: relative;
+}
+.process-content::after{
+    position: absolute;
+    content: '';
+    width: 40%;
+    margin: auto;
+    bottom: 0;
+    border-bottom: 0.1rem solid white;
+}
+.process-content span{
+    color: var(--primary-color) !important;
+    font-size: 7rem;
+    font-weight: 800;
+    margin-right: 2rem;
+}
+.work-wrapper{
+    background-color: #000;
+}
+.work-wrapper h1{
+        color: #fff !important;
+
+}
